@@ -1,0 +1,88 @@
+:root {
+    --c-brand: #3765af;
+    --c-brand-light: #6e89b3;
+    --c-text-danger: #e3342f;
+    --c-text-normal: black;
+    --c-text-sucess: #3eaf7c;
+}
+
+@media screen and (min-width: 1921px) {
+    #app, .navbar {
+        max-width: 1920px;
+        margin: 0 auto;
+    }
+
+    .sidebar {
+        left: unset;
+    }
+
+    .right-anchor.is-global {
+        right: 320px !important;
+    }
+}
+    
+html.dark {
+    --c-brand: #949494;
+    --c-brand-light: #bdbcbc;
+}
+
+.text-red {
+    color: var(--c-text-danger);
+}
+
+.text-normal {
+    color: var(--c-text-normal);
+}
+
+.text-success{
+    color: var(--c-text-sucess);
+}
+
+h2 , .right-anchor-menu-item.h2, strong{
+    color: var(--c-brand);
+}
+
+.page .theme-default-content, .page-meta{
+    max-width : unset;
+    padding-right: 15em;
+}
+
+.right-anchor-wrapper > .right-anchor-button {
+    display: none;
+}
+
+.right-anchor-wrapper .right-anchor-menu{
+    background-color: unset;
+}
+
+.right-anchor {
+    width: 215px !important;
+    --rightAnchorTextColor: var(--c-text);
+    --rightAnchorFontSize: 14px;
+    /* Btn */
+    --rightAnchorBtnTextColor: var(--rightAnchorTextColor);
+    --rightAnchorBtnBgColor: var(--c-bg);
+    /* Menu */
+    --rightAnchorMenuTextColor: var(--rightAnchorTextColor);
+    --rightAnchorMenuBgColor: var(--c-bg);
+}
+  
+/* dark theme */
+ .dark .right-anchor {
+    --rightAnchorTextColor: var(--c-text);
+    --rightAnchorFontSize: 14px;
+    /* Btn */
+    --rightAnchorBtnTextColor: var(--rightAnchorTextColor);
+    --rightAnchorBtnBgColor: var(--c-bg);
+    /* Menu */
+    --rightAnchorMenuTextColor: var(--rightAnchorTextColor);
+    --rightAnchorMenuBgColor: var(--c-bg);
+}
+
+.right-anchor-menu {
+    margin-top: 0px !important;
+}
+
+#main-title {
+    color: var(--c-brand);
+}
