@@ -26,6 +26,10 @@ html.dark {
     --c-brand-light: #bdbcbc;
 }
 
+.text-primary {
+    color: var(--c-brand);
+}
+
 .text-red {
     color: var(--c-text-danger);
 }

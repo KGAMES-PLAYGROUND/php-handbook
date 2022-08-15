@@ -5,7 +5,7 @@ module.exports = {
                 { text: 'Ngôn ngữ PHP là gì?',  link : '/get-started/what-is-php.md' },
             ]
         },
-        { text: 'Khởi đầu',  link : '/get-started/'},
+        { text: 'Getting started',  link : '/get-started/'},
     ]
 }
     
