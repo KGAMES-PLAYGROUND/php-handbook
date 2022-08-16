@@ -4,6 +4,7 @@
     --c-text-danger: #e3342f;
     --c-text-normal: black;
     --c-text-sucess: #3eaf7c;
+    --c-text-link: #437a94;
 }
 
 @media screen and (min-width: 1921px) {
@@ -24,6 +25,12 @@
 html.dark {
     --c-brand: #949494;
     --c-brand-light: #bdbcbc;
+    --c-text-link: #77d0f3;
+}
+
+a {
+    color: var(--c-text-link);
+    text-decoration: none !important;
 }
 
 .text-primary {

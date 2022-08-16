@@ -22,9 +22,10 @@ module.exports = {
         docsBranch: 'main',
         editLinks: true,   
         smoothScroll: true,    
-        contributors: false,
+        contributors: true,
         lastUpdated : true,
         displayAllHeaders: true,
+		sidebarDepth: 3,
 		locales: {
 			'/': {
 				navbar: require('./routes/routes'),
@@ -33,6 +34,8 @@ module.exports = {
 				editLinkText: 'Mở trên GitHub',
 				selectLanguageText: 'Ngôn ngữ',
 				selectLanguageName: 'Tiếng Việt',
+				lastUpdatedText: 'Cập nhật lần cuối',
+				contributorsText: 'Tác giả',
 				sidebar: require('./ext/sidebar'),
 			},
 			'/en/' : {
@@ -54,7 +57,7 @@ module.exports = {
 	},
 	plugins: [
 		rightAnchorPlugin({
-			showDepth: 2,
+			showDepth: 3,
 			ignore: [
 			  '/',
 			  '/api/'

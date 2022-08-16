@@ -22,7 +22,7 @@ Mong rằng nó sẽ mang đến cho mọi người nhiều kiến thức.
 - <span class="text-success">[Thêm]</span> Xuất bản dự án phiên bản đầu tiên. [Xem thêm](https://google.com.vn)
 :::
 
-## Người đóng góp
+## Nhà tài trợ
 
 ::: tip ※ CẢM ƠN
 Xin chân thành cảm ơn tất cả các bạn có tên sau đã đóng góp những thông tin hữu ích cho tài liệu này.
@@ -31,7 +31,6 @@ Xin chân thành cảm ơn tất cả các bạn có tên sau đã đóng góp n
 1. **Zenlunaris** - **<span class="text-success">Phan Hữu Tài</span>**
     - Tác giả: <gg.taiphan@gmail.com>
 
-
-
-
 ## Tài liệu tham khảo
+
+1. Wikipedia [Link](https://vi.wikipedia.org/wiki/Trang_Ch%C3%ADnh)
